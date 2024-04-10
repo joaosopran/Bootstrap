@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.header {  /* para mudar a cor do header */
+    width: 100%;
+    background: black;
+}
+
+.navbar-brand {color: white!important;} /* para mudar a cor se tiver algo escrito do lado do logo*/
+.nav-link {color: white!important;} /* para mudar a cor das letras do menu*/
+.nav-link:hover { color: red!important;} /* ação de hover para mudar a cor das letras quando passa o mouse*/
+
+
+@media(max-width:668px) { /* para mudar quando a viewport for menor muda o menu para o centro*/
+    .nav-link{text-align: center;}
+}
+
+
+.nav-item {     /* para dar espaçamento entre os itens do menu*/
+    margin: 0 50px;
+}
