@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Cabin, sans-serif;
 }
 
 .header {  /* para mudar a cor do header */
@@ -21,4 +26,126 @@
 
 .nav-item {     /* para dar espaçamento entre os itens do menu*/
     margin: 0 50px;
+}
+
+/* -------------------------------------- CONTEUDO -----------------------------------------*/
+
+body {
+    background: #e8e6e7;
+}
+
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 5rem 10rem;
+}
+
+.main-text img { /* tamanho do iphone*/
+    width: 30rem;
+    display: flex;
+    margin-bottom: 3vh;
+    float: right;
+}
+
+.main-text h3 {
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
+
+.main-text p {
+    margin-bottom: 1.5rem;
+    margin-right: 48px;
+}
+
+.main-text h6 {
+    color: #999;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.main-text .btn{
+    padding: 10px 25px;
+    background: #0071e3;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.5rem;
+    transform: all 0.5s;
+}
+
+.main-text .btn:hover{
+    opacity: .85;
+}
+
+.main-text .text h5{
+    font-size: 1rem;
+    color: #444;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main-text .content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* ============= opção de cor ==============*/
+
+.main-text .content span {
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px #888;
+    transition: all 0.5s;
+}
+
+.main-text .content span:hover {
+    opacity: .80;
+}
+
+#green {
+    background: #384937;
+}
+#pink {
+    background: #eec1b5;
+}
+#blue {
+    background: #225f7e;
+}
+#black {
+    background: #050607;
+}
+#white{
+    background: #f7f6f5;
+}
+#red{
+    background: #ae0617;
+}
+
+.main-img {
+    transform: all 1s ease;
+    z-index: 100;
+}
+
+
+
+.whatsapp-float img {
+    position: fixed;
+    width: 70px;
+    height: 60px;
+    bottom: 40px;
+    left: 40px; 
+    height: auto;
+}
+
+footer {
+    padding: 0px;
+    background-color: black;
+    height: 85px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
 }
